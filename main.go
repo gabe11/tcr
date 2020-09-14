@@ -11,4 +11,5 @@ func main() {
 
 func Bla() string {
 	return fmt.Sprintln("hello")
+
 }
