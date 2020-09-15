@@ -7,5 +7,4 @@ func TestBla(t *testing.T) {
 	if s := Bla(); s == "" {
 		t.Errorf("error: %v", s)
 	}
-
 }
