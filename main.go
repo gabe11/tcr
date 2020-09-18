@@ -8,7 +8,7 @@ func main() {
 }
 
 // Bla does bla
-
+// another note
 func Bla() string {
 	return fmt.Sprintln("hello")
 

@@ -1,0 +1,6 @@
+#!/usr/bin/bash
+# this script is hardwired into ~/.spacemacs 
+# Everytime I save my go code file, this script is run.
+# The purpose of this script is to integrate tcr:
+# Test && Commit || Revert workflow. This ensures my tests are always passing
+go build && (go test && git commit -am 'Green: tcr test pass'|| git checkout main.go)
